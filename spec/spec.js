@@ -41,5 +41,10 @@ describe("Fizz Buzz tests ", function() {
     expect(myApp.fizzBuzz(2)).toBe(2);
   });
 
+  it("should return `FizzBuzz` for 0", function() {
+    expect(myApp.fizzBuzz(0)).toBe('FizzBuzz');
+  });
+
+
 
 });
