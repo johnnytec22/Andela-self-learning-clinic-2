@@ -37,4 +37,9 @@ describe("Fizz Buzz tests ", function() {
     expect(myApp.fizzBuzz(101)).toBe(101);
   });
 
+  it("should return 2 since its indivisible by 3 and 5", function() {
+    expect(myApp.fizzBuzz(2)).toBe(2);
+  });
+
+
 });
